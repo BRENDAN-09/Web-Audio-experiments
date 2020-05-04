@@ -53,7 +53,7 @@ gainNode.gain.maxValue = initialVol
 
 
 let t = 0
-run()
+document.addEventListener('keydown',run)
 
 function run(){
   t += 1
